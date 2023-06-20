@@ -23,7 +23,7 @@ namespace opd3
                 int num = Convert.ToInt32(number);
 
                 if (num < 0)
-                    continue;
+                    break;
 
                 if (num > 0 && num % x == 0)
                     sum += num;
